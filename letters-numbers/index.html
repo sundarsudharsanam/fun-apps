@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fun with Letters and Numbers</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css"
+    integrity="sha512-1fPmaHba3v4A7PaUsComSM4TBsrrRGs+/fv0vrzafQ+Rw+siILTiJa0NtFfvGeyY5E182SDTaF5PqP+XOHgJag=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="app vh-100 mx-auto font-monospace">
+    <div class="row">
+      <div class="col col-12">
+        <div class="card">
+          <header class="card-header bg-warning bg-gradient fw-bold">
+            <h1 class="text-center fs-4">
+              <span class="fw-normal">6-21-14</span> | FUN WITH NUMBERS
+            </h1>
+          </header>
+
+          <div class="card-body text-center pb-4">
+            <div id="spinner" class="d-none">
+              <div class="spinner-border m-5" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+
+            <section id="output" class="output pb-2 m-4"></section>
+
+            <button type="button" id="btnNext" class="btn btn-outline-primary btn-next">
+              Next <i class="bi bi-caret-right-fill align-middle"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

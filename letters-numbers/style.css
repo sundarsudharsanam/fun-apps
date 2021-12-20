@@ -1,0 +1,12 @@
+.app {
+  max-width: 400px;
+}
+
+.app .output span {
+  color: purple;
+  font-weight: bold;
+  display: inline-block;
+  width: 30px;
+  padding: 5px;
+  border: 1px solid;
+}
