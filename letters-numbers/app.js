@@ -41,13 +41,15 @@ function runApp() {
   strArray.forEach((char, idx) => {
     // console.log(idx, char, str.charCodeAt(idx));
     // console.log(str.charCodeAt(idx) - 96);
-    outputLetters += `<span>${char.toUpperCase()}</span>`;
-    outputNumbers += `<span>${str.charCodeAt(idx) - 96}</span>`;
+    outputLetters += `<td>${char.toUpperCase()}</td>`;
+    outputNumbers += `<td>${str.charCodeAt(idx) - 96}</td>`;
   });
 
   output.innerHTML = `
-    <div>${outputLetters}</div>
-    <div>${outputNumbers}</div>
+    <table class="mx-auto">
+      <tr>${outputLetters}</tr>
+      <tr>${outputNumbers}</tr>
+    </table>
   `;
   spinner.classList.add('d-none');
 }

@@ -2,11 +2,10 @@
   max-width: 400px;
 }
 
-.app .output span {
+.app .output table td {
   color: purple;
   font-weight: bold;
-  display: inline-block;
-  width: 30px;
+  min-width: 32px;
   padding: 5px;
   border: 1px solid;
 }
