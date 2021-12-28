@@ -1,9 +1,13 @@
+:root {
+  --letter-number-color: purple;
+}
+
 .app {
   max-width: 400px;
 }
 
 .app .output table td {
-  color: purple;
+  color: var(--letter-number-color);
   font-weight: bold;
   min-width: 32px;
   padding: 5px;
